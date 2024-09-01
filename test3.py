@@ -1,7 +1,7 @@
 import sys
 
 # Define your variables
-a = 1
+a = 2
 b = 2
 c = 2
 d = 2
