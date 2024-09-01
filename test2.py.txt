@@ -1,0 +1,18 @@
+import os
+
+def get_jenkins_params():
+    # Retrieve parameters passed from Jenkins
+    param1 = os.environ.get('PARAM1', 'default_value1')
+    param2 = os.environ.get('PARAM2', 'default_value2')
+    param3 = os.environ.get('PARAM3', 'default_value3')
+    
+    # Print the parameters (or use them in your logic)
+    print(f"Parameter 1: {param1}")
+    print(f"Parameter 2: {param2}")
+    print(f"Parameter 3: {param3}")
+
+    # Return the parameters if needed
+    return param1, param2, param3
+
+if __name__ == "__main__":
+    get_jenkins_params()
