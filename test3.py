@@ -4,7 +4,7 @@ import sys
 a = 1
 b = 2
 c = 2
-d = 3
+d = 2
 # Check conditions
 if a == b and c == d:
     # If both conditions are true, exit with status 0 (success)
